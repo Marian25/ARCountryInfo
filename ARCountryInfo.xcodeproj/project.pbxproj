@@ -12,11 +12,11 @@
 		A267A74D21919DE700C84706 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A267A74C21919DE700C84706 /* Utils.swift */; };
 		A267A74F2191A15100C84706 /* SCNNodeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A267A74E2191A15100C84706 /* SCNNodeFactory.swift */; };
 		A267A7512191A43E00C84706 /* CABasicAnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A267A7502191A43E00C84706 /* CABasicAnimationFactory.swift */; };
+		A27E40F4219448910080C4B6 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27E40F3219448910080C4B6 /* SideMenuViewController.swift */; };
 		A2C38A712077898C0005C618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C38A702077898C0005C618 /* AppDelegate.swift */; };
 		A2C38A732077898D0005C618 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C38A722077898D0005C618 /* art.scnassets */; };
 		A2C38A752077898D0005C618 /* EarthSimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C38A742077898D0005C618 /* EarthSimulationViewController.swift */; };
 		A2C38A782077898D0005C618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C38A762077898D0005C618 /* Main.storyboard */; };
-		A2C38A7A2077899A0005C618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C38A792077899A0005C618 /* Assets.xcassets */; };
 		A2C38A7D2077899A0005C618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C38A7B2077899A0005C618 /* LaunchScreen.storyboard */; };
 		A2D752F43A2BA8F04BF984A4 /* Pods_ARCountryInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB4E9DAFCB94646FDA797B /* Pods_ARCountryInfo.framework */; };
 		A2F316672078BFFB00ABA65E /* AtmosphereHalo.glsl in Resources */ = {isa = PBXBuildFile; fileRef = A2F316662078BFFB00ABA65E /* AtmosphereHalo.glsl */; };
@@ -26,16 +26,17 @@
 		42FB4E9DAFCB94646FDA797B /* Pods_ARCountryInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCountryInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E60D1854B35D42DEF9B903F /* Pods_ARCountryInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCountryInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F84F3A493837DF74DF2358A /* Pods-Advanced HitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advanced HitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Advanced HitTest/Pods-Advanced HitTest.release.xcconfig"; sourceTree = "<group>"; };
+		A242430121937EAC004D023C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A267A74821919B7C00C84706 /* EarthSimulationVIewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EarthSimulationVIewController+UI.swift"; sourceTree = "<group>"; };
 		A267A74C21919DE700C84706 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A267A74E2191A15100C84706 /* SCNNodeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeFactory.swift; sourceTree = "<group>"; };
 		A267A7502191A43E00C84706 /* CABasicAnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CABasicAnimationFactory.swift; sourceTree = "<group>"; };
+		A27E40F3219448910080C4B6 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		A2C38A6D2077898C0005C618 /* ARCountryInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCountryInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C38A702077898C0005C618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C38A722077898D0005C618 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A2C38A742077898D0005C618 /* EarthSimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthSimulationViewController.swift; sourceTree = "<group>"; };
 		A2C38A772077898D0005C618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2C38A792077899A0005C618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C38A7C2077899A0005C618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2C38A7E2077899A0005C618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F316662078BFFB00ABA65E /* AtmosphereHalo.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AtmosphereHalo.glsl; sourceTree = "<group>"; };
@@ -77,6 +78,84 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A24242F921937E0B004D023C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A27E40F2219448290080C4B6 /* SideMenu */,
+				A24242FA21937E1E004D023C /* EarthSimulation */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A24242FA21937E1E004D023C /* EarthSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				A2C38A742077898D0005C618 /* EarthSimulationViewController.swift */,
+				A267A74821919B7C00C84706 /* EarthSimulationVIewController+UI.swift */,
+			);
+			path = EarthSimulation;
+			sourceTree = "<group>";
+		};
+		A24242FB21937E39004D023C /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				A267A74E2191A15100C84706 /* SCNNodeFactory.swift */,
+				A267A7502191A43E00C84706 /* CABasicAnimationFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		A24242FD21937E59004D023C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				A2F316662078BFFB00ABA65E /* AtmosphereHalo.glsl */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		A24242FE21937E76004D023C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C38A702077898C0005C618 /* AppDelegate.swift */,
+				A2C38A7E2077899A0005C618 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A24242FF21937E84004D023C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A242430121937EAC004D023C /* Assets.xcassets */,
+				A2C38A722077898D0005C618 /* art.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A242430021937E8D004D023C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A2C38A762077898D0005C618 /* Main.storyboard */,
+				A2C38A7B2077899A0005C618 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A242430221937EC4004D023C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A267A74C21919DE700C84706 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A27E40F2219448290080C4B6 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A27E40F3219448910080C4B6 /* SideMenuViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 		A2C38A642077898C0005C618 = {
 			isa = PBXGroup;
 			children = (
@@ -98,18 +177,13 @@
 		A2C38A6F2077898C0005C618 /* ARCountryInfo */ = {
 			isa = PBXGroup;
 			children = (
-				A2C38A702077898C0005C618 /* AppDelegate.swift */,
-				A2C38A742077898D0005C618 /* EarthSimulationViewController.swift */,
-				A267A74821919B7C00C84706 /* EarthSimulationVIewController+UI.swift */,
-				A267A74E2191A15100C84706 /* SCNNodeFactory.swift */,
-				A267A7502191A43E00C84706 /* CABasicAnimationFactory.swift */,
-				A267A74C21919DE700C84706 /* Utils.swift */,
-				A2F316662078BFFB00ABA65E /* AtmosphereHalo.glsl */,
-				A2C38A722077898D0005C618 /* art.scnassets */,
-				A2C38A762077898D0005C618 /* Main.storyboard */,
-				A2C38A792077899A0005C618 /* Assets.xcassets */,
-				A2C38A7B2077899A0005C618 /* LaunchScreen.storyboard */,
-				A2C38A7E2077899A0005C618 /* Info.plist */,
+				A24242F921937E0B004D023C /* Controllers */,
+				A24242FB21937E39004D023C /* Factories */,
+				A242430221937EC4004D023C /* Utils */,
+				A242430021937E8D004D023C /* Storyboards */,
+				A24242FF21937E84004D023C /* Resources */,
+				A24242FE21937E76004D023C /* Supporting Files */,
+				A24242FD21937E59004D023C /* Shaders */,
 			);
 			path = ARCountryInfo;
 			sourceTree = "<group>";
@@ -181,7 +255,6 @@
 			files = (
 				A2C38A732077898D0005C618 /* art.scnassets in Resources */,
 				A2C38A7D2077899A0005C618 /* LaunchScreen.storyboard in Resources */,
-				A2C38A7A2077899A0005C618 /* Assets.xcassets in Resources */,
 				A2F316672078BFFB00ABA65E /* AtmosphereHalo.glsl in Resources */,
 				A2C38A782077898D0005C618 /* Main.storyboard in Resources */,
 			);
@@ -198,11 +271,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ARCountryInfo/Pods-ARCountryInfo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +314,7 @@
 				A2C38A752077898D0005C618 /* EarthSimulationViewController.swift in Sources */,
 				A267A74921919B7C00C84706 /* EarthSimulationVIewController+UI.swift in Sources */,
 				A2C38A712077898C0005C618 /* AppDelegate.swift in Sources */,
+				A27E40F4219448910080C4B6 /* SideMenuViewController.swift in Sources */,
 				A267A7512191A43E00C84706 /* CABasicAnimationFactory.swift in Sources */,
 				A267A74F2191A15100C84706 /* SCNNodeFactory.swift in Sources */,
 			);
@@ -387,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULSKSPKFH7;
-				INFOPLIST_FILE = "$(SRCROOT)/ARCountryInfo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARCountryInfo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULSKSPKFH7;
-				INFOPLIST_FILE = "$(SRCROOT)/ARCountryInfo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARCountryInfo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

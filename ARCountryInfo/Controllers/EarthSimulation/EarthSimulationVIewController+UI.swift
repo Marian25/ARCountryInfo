@@ -28,6 +28,25 @@ extension EarthSimulationViewController {
         self.countryLabel?.heightAnchor.constraint(equalToConstant: 44).isActive = true
     }
     
+    func setupSideMenuButton() {
+        self.sideMenuButton = UIButton()
+        self.sideMenuButton?.setImage(UIImage(named: "art.scnassets/menu.png"), for: .normal)
+        self.sideMenuButton?.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.sceneView.addSubview(self.sideMenuButton!)
+        
+        self.sideMenuButton?.leftAnchor.constraint(equalTo: self.sceneView.leftAnchor, constant: 8).isActive = true
+        self.sideMenuButton?.topAnchor.constraint(equalTo: self.sceneView.topAnchor, constant: 8).isActive = true
+        self.sideMenuButton?.widthAnchor.constraint(equalToConstant: 20).isActive = true
+        self.sideMenuButton?.heightAnchor.constraint(equalToConstant: 20).isActive = true
+        
+        self.sideMenuButton?.addTarget(self, action: #selector(handleSideMenuSegue), for: .touchUpInside)
+    }
+    
+    @objc func handleSideMenuSegue() {
+        performSegue(withIdentifier: "sideMenuSegue", sender: self)
+    }
+    
     func setupCloudsEnableButton() {
         self.cloudsEnableButton = UIButton()
         self.cloudsEnableButton?.setImage(UIImage(named: Utils.ORIGINAL_CLOUD_IMAGE_NAME), for: .normal)

@@ -8,5 +8,6 @@ target 'ARCountryInfo' do
   # Pods for ARCountryInfo
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'SideMenu'
 
 end

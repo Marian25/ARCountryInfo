@@ -28,6 +28,7 @@ class EarthSimulationViewController: UIViewController, ARSCNViewDelegate, UIWebV
     
     var countryLabel: UILabel?
     var cloudsEnableButton: UIButton?
+    var sideMenuButton: UIButton?
     var cloudsEnabled = true
     
     private let earthRadius: CGFloat = 0.2
@@ -41,6 +42,7 @@ class EarthSimulationViewController: UIViewController, ARSCNViewDelegate, UIWebV
         sceneView.delegate = self
         
         self.setupCountryLabel()
+        self.setupSideMenuButton()
         self.setupCloudsEnableButton()
         self.setupCountryInformationNode()
         self.setupNodesInScene()
