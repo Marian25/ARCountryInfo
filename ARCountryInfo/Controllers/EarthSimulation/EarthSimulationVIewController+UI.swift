@@ -19,12 +19,14 @@ extension EarthSimulationViewController {
         self.countryLabel?.textAlignment = .center
         self.countryLabel?.textColor = .white
         self.countryLabel?.translatesAutoresizingMaskIntoConstraints = false
+        self.countryLabel?.layer.cornerRadius = 22
+        self.countryLabel?.layer.masksToBounds = true
         
         self.sceneView.addSubview(self.countryLabel!)
         
-        self.countryLabel?.leftAnchor.constraint(equalTo: self.sceneView.leftAnchor, constant: 8).isActive = true
-        self.countryLabel?.rightAnchor.constraint(equalTo: self.sceneView.rightAnchor, constant: -8).isActive = true
         self.countryLabel?.bottomAnchor.constraint(equalTo: self.sceneView.bottomAnchor, constant: -8).isActive = true
+        self.countryLabel?.centerXAnchor.constraint(equalTo: self.sceneView.centerXAnchor).isActive = true
+        self.countryLabel?.widthAnchor.constraint(equalToConstant: 350).isActive = true
         self.countryLabel?.heightAnchor.constraint(equalToConstant: 44).isActive = true
     }
     
@@ -32,6 +34,8 @@ extension EarthSimulationViewController {
         self.sideMenuButton = UIButton()
         self.sideMenuButton?.setImage(UIImage(named: "art.scnassets/menu.png"), for: .normal)
         self.sideMenuButton?.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.sideMenuButton?.isHidden = true        // TODO - delete
         
         self.sceneView.addSubview(self.sideMenuButton!)
         
